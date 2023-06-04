@@ -7,9 +7,9 @@ The WebsiteMetadata Agent extracts metadata from HTML. It supports schema.org mi
 Add this string to your Huginn's .env `ADDITIONAL_GEMS` configuration:
 
 ```ruby
-huginn_website_metadata_agent(github: kreuzwerker/DKT.huginn_website_metadata_agent)
+huginn_website_metadata_agent(github: saumier/DKT.huginn_website_metadata_agent)
 # when only using this agent gem it should look like hits:
-ADDITIONAL_GEMS=huginn_website_metadata_agent(github: kreuzwerker/DKT.huginn_website_metadata_agent)
+ADDITIONAL_GEMS=huginn_website_metadata_agent(github: saumier/DKT.huginn_website_metadata_agent)
 ```
 
 And then execute:
